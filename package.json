@@ -1,0 +1,24 @@
+{
+  "name": "snowflake-generator",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "targets": {
+    "main": {
+      "includeNodeModules": true
+    }
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "GPL",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "snowflake-id": "^1.1.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

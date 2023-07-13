@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css">
+    <title>Snowflake Generator</title>
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+<main>
+    <h1 id="snowflake-id">Loading...</h1>
+    <label for="mid">Mid</label>
+    <input id="mid" name="mid" placeholder="42"/>
+    <label for="offset">Offset</label>
+    <input id="offset" name="offset" placeholder="(2019-1970)*31536000*1000"/>
+    <button id="snowflake-id-generate">Regenerate</button>
+</main>
+<footer>
+    <small>
+        <div>Snowflake ID generated with: <a href="https://github.com/dustinrouillard/snowflake-id">https://github.com/dustinrouillard/snowflake-id</a>
+        </div>
+        <div>This page's github: <a href="https://github.com">https://github.com</a></div>
+    </small>
+</footer>
+</body>
+</html>
