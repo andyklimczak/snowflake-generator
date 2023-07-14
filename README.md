@@ -5,5 +5,6 @@ Website to quickly generate an example snowflake id
 ## Development
 
 ```shell
-npx start
+npm start
 ```
+Then visit http://localhost:1234
