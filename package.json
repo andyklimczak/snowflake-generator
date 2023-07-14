@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "parcel",
-    "build": "parcel build index.html --public-url /snowflake-generator/"
+    "build": "parcel build"
   },
   "author": "",
   "license": "GPL",
